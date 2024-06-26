@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Jost;
+    src: url(../static);
+}
+
+body {
+    font-family: "Jost-Medium", Jost;
+    background-color: #17141d;
+    color: #fff;
+    line-height: 0.8;
+}
+
+.head-title {
+    font-size: 45px;
+    color: aliceblue;
+    font-weight: 700;
+    text-shadow:
+    0 0 1px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff;
+    line-height: 0.8;
+}
+
+.head {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0.8;
+}
+
+.head-img {
+    border-radius: 25%;
+}
+
+.head-a {
+    color: #545454;
+    line-height: 0.8;
+}
+
+.footer {
+    width: 400px;
+    margin:    
+     right 0;
+    bottom: 0;
+    width: 99%;
+}
