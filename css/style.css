@@ -1,13 +1,16 @@
-@font-face {
-    font-family: Jost;
-    src: url(../static);
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.all {
+    overflow: hidden;
 }
 
 body {
-    font-family: "Jost-Medium", Jost;
     background-color: #17141d;
     color: #fff;
     line-height: 0.8;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 
 .head-title {
@@ -38,9 +41,16 @@ body {
 }
 
 .footer {
-    width: 400px;
-    margin:    
-     right 0;
-    bottom: 0;
-    width: 99%;
+    width: 100%;
+    z-index: 10;
+    font-size: 14px;
+    padding: 40px 0;
 }
+  .footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #17141d;
+    transition: all .5s ease;
+  }
+
