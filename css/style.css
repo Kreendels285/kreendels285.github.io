@@ -5,13 +5,24 @@
 }
 
 body {
-    background-color: #17141d;
+    background-color: #1c1c28;
     color: #fff;
     line-height: 0.8;
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
 }
+
+.title {
+    font-size: 45px;
+    color: aliceblue;
+    font-weight: 700;
+    text-shadow:
+    0 0 1px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff;
+    line-height: 0.8;
+}   
 
 .head-title {
     font-size: 45px;
@@ -32,11 +43,11 @@ body {
 }
 
 .head-img {
-    border-radius: 25%;
+    border-radius: 27%;
 }
 
 .head-a {
-    color: #545454;
+    color: #d5b9b9;
     line-height: 0.8;
 }
 
