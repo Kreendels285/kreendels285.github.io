@@ -41,10 +41,10 @@ body {
 }
 
 .footer { 
-    position:absolute; 
-    width:99%; 
-    height:60px; 
-    bottom:0px; 
+    position: absolute; 
+    width: 99%; 
+    height: 90px; 
+    bottom: 0px; 
     } 
   .footer a {
     color: #70726F;
