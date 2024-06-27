@@ -42,13 +42,6 @@ p {
     font-weight: 400;
 }
 
-#screens {
-    position: static;
-    top: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
 .in_index {
     color: #dbdbdb;
     font-size: 18px;
