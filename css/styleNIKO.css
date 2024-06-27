@@ -6,7 +6,7 @@
 
 body {
     background-color: #1c1c28;
-    color: rgb(219, 219, 219);
+    color: #dbdbdb;
     line-height: 0.8;
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
@@ -15,7 +15,7 @@ body {
 
 .glow-title {
     font-size: 45px;
-    color: aliceblue;
+    color: #f0f8ff;
     font-weight: 700;
     text-shadow:
     0 0 1px #fff,
@@ -37,7 +37,7 @@ p {
     left: 45%;
     transform: translateX(-50%);
     width: 80%;
-    color: rgb(219, 219, 219);
+    color: #dbdbdb;
     font-size: 25px;
     font-weight: 400;
 }
@@ -72,7 +72,7 @@ p {
   }
 
 .glow-text {
-    color: aliceblue;
+    color: #f0f8ff;
     text-shadow:
     0 0 0.9px #fff,
     0 0 2px #fff,
