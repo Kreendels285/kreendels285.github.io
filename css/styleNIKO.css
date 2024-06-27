@@ -53,3 +53,43 @@ p {
     color: #dbdbdb;
     font-size: 18px;
 }
+
+.catside a{
+    color: #ffdcf9;
+    text-shadow:
+    0 0 0.9px #ffdcf9,
+    0 0 2px #ffdcf9,
+    0 0 3px #ffdcf9;
+    line-height: 0.8;
+    }
+  .catside a:hover {
+      color: #ffb4f4;
+      text-shadow:
+      0 0 0.9px #ffb4f4,
+      0 0 2px #ffb4f4,
+      0 0 3px #ffb4f4;
+      line-height: 0.8;
+  }
+
+.glow-text {
+    color: aliceblue;
+    text-shadow:
+    0 0 0.9px #fff,
+    0 0 2px #fff,
+    0 0 3px #fff;
+    line-height: 0.8;
+}
+
+.footer { 
+    position: absolute; 
+    width: 99%; 
+    height: 90px; 
+    bottom: 0px; 
+    } 
+  .footer a {
+    color: #1c1c28;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #1c1c28;
+    transition: all .5s ease;
+  }

@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Это моя... сайт</title>
 </head>
-<body>
+<body onload="PageLoaded()">
     <div class="all">
         <div class="head">
             <img src="img/img-1.png" alt="Моя аватарка" width="260" height="260" class="head-img">
             <h1 class="head-title">az963258</h1>
             <p>Добро пожаловать на мой пустоватый сайт</p>
             <p>Мои проекты:</p>
-            <a href="html/Niko-png.html" class="head-a">Discord_Niko.png</a>
-           
+            
+            <div class="catside glow-text">
+                <a href="html/Niko-png.html" id="example">Discord_Niko.png</a>
+            </div>
         </div>
         <div class="footer">
             <center>
@@ -22,6 +24,8 @@
                 </p>
             </center>
         </div>
+        
     </div>
+    <script src="JS/script.js"></script>
 </body>
 </html>
