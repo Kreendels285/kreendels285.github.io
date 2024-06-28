@@ -54,13 +54,20 @@ p, ul {
     font-size: 18px;
 }
 
+.catside {
+    width: 250px;
+    display: block;
+    line-height: 1.5;
+
+}
+
 .catside a{
     color: #ffdcf9;
     text-shadow:
     0 0 0.9px #ffdcf9,
     0 0 2px #ffdcf9,
     0 0 3px #ffdcf9;
-    line-height: 0.8;
+    font-size: 22px;
     }
   .catside a:hover {
       color: #ffb4f4;
@@ -94,3 +101,6 @@ p, ul {
     transition: all .5s ease;
   }
 
+.text {
+    
+}
